@@ -12,6 +12,7 @@
 
 import stream = require('stream');
 import tls = require('tls');
+import SqlString = require('sqlstring');
 
 export interface EscapeFunctions {
     /**
